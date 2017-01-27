@@ -5,9 +5,9 @@ package OOP_week1.hometask5;
  */
 public abstract class Book implements Edition {
 
-    String name;
-    int pages;
-    public String editionName;
+    private String name;
+    private int pages;
+    private String editionName;
 
     public Book (String editionName, String name, int pages){
         this.editionName = editionName;
