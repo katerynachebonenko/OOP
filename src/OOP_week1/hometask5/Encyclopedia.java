@@ -22,14 +22,9 @@ public class Encyclopedia extends Book {
         this.typeEncyclopedia = typeEncyclopedia;
     }
 
-    public void EncyclopediaType(){
-        System.out.print("Your Dictionary type is " + typeEncyclopedia);
+    public void encyclopediaType(){
+        System.out.print("Your Encyclopedia type is " + typeEncyclopedia);
     }
 
-
-    @Override
-    public void editionName() {
-
-    }
 
 }

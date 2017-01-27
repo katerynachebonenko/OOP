@@ -16,7 +16,7 @@ public class Run {
         enc1.showEditionName();
         enc1.showBookName();
         enc1.showBookPages();
-        enc1.getTypeEncyclopedia();
+        enc1.encyclopediaType();
 
 
     }

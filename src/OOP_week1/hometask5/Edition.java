@@ -5,6 +5,6 @@ package OOP_week1.hometask5;
  */
 public interface Edition {
 
-    public void editionName();
+    public void showEditionName();
 
 }

@@ -28,8 +28,4 @@ public class Dictionary extends Book {
     }
 
 
-    @Override
-    public void editionName() {
-
-    }
 }
