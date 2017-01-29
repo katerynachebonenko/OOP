@@ -47,9 +47,9 @@ public class Run {
         System.out.println("Students:");
         university.showStudents();
         System.out.println("-------------------");
-        //add student
-        group.addStudent(student3);
-        group.sortStudents(student3);
+        //add student, override equals!
+        group.addStudent(student2);
+        group.sortStudents(student2);
         group.showStudents();
         System.out.println("-------------------");
         //remove student
@@ -57,17 +57,18 @@ public class Run {
         group2.sortStudents(student4);
         group2.showStudents();
         System.out.println("-------------------");
-        //add group
-        university.addGroup(group3);
+        //add group, check equals
+        university.addGroup(group2);
         university.showGroups();
         System.out.println("-------------------");
         //remove group
         university2.removeGroup(group2);
         university2.showGroups();
         System.out.println("-------------------");
+
         //search stud by name
-        group4.searchStudentName("Bill");
-        group4.showStudents();
+        Student searchable = group4.searchStudentName("Bill");
+        System.out.println(searchable.asString());
         System.out.println("-------------------");
 
 

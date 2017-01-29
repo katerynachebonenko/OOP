@@ -28,7 +28,7 @@ public class University {
         //check if student exists in students
         boolean exists = false;
         for (int i = 0; i < groups.length; i++) {
-            if (group == groups[i]) {
+            if (groups[i].equals(group)) {
                 exists = true;
                 System.out.println("Student exists in list");
                 break;
